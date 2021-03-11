@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bien,kieudl và toan tu</title>
+</head>
+<body>
+<div id="diemso">Điểm Trung Bình</div>
+<p id="tong">Điểm Tổng</p>
+<script>
+    var VatLy=parseInt(prompt("Nhập điểm vật lý:"));
+    var HoaHoc=parseInt(prompt("Nhập điểm Hóa Học:"));
+    var SinhHoc=parseInt(prompt("Nhập điểm Sinh Học:"));
+    var DTB=(VatLy+HoaHoc+SinhHoc)/3;
+    var Tong= VatLy+HoaHoc+SinhHoc;
+    document.getElementById("diemso").innerHTML=DTB;
+    document.getElementById("tong").innerHTML=Tong;
+</script>
+</body>
+</html>
